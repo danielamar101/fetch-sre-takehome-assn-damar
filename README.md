@@ -39,7 +39,7 @@ options:
 
 # Input Yaml File specifications
 
-** Note: This program assumes the contents of the yaml input file are in a valid yaml format. No validation is done within the program. ** 
+**Note: This program assumes the contents of the yaml input file are in a valid yaml format. No validation is done within the program.** 
 
 Each HTTP endpoint element in the YAML list has the following schema:
 - name (string, required) — A free-text name to describe the HTTP endpoint.
@@ -64,12 +64,12 @@ You may assume that the URL is always a valid HTTP or HTTPS address.
 
 ```
 export SENTRY_DSN="some sentry dsn value here"
-``
+```
 4. Get this environment variable into the current environment with direnv:
 ```
 direnv allow
 ```
-4. Uncomment this block of code from fetch.py:
+5. Uncomment this block of code from fetch.py:
 ```
 # import sentry_sdk
 # import os
